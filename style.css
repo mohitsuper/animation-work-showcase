@@ -1,0 +1,349 @@
+@font-face {
+    font-family: "main-font";
+    src: url("/asstes/font/NimbusSanL-Reg.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: main-font;
+}
+html,body{
+    width: 100%;
+    height: fit-content;
+    background: transparent;
+}
+
+/* ---------------nav section-------------------------- */
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 10vw;
+}
+#nav .nav-links{
+    display: flex;
+    gap: 4vw;
+}
+#nav a{
+    color: #000;
+    font-size: 1.1vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+/* ------------------hero section---------------------- */
+
+
+#hero{
+    width: 100%;
+    margin-top: 13vw;
+    padding: 2vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Sustainability{
+    width: 18%;
+    height: 10%;
+}
+.Sustainability .Sus-text{
+    margin-bottom: 1.3vw;
+    line-height: 1.2vw;
+}
+.Sustainability .Sus-text h4{
+   font-weight: 400;
+}
+
+.Sustainability .Sus-text h3{
+    margin-bottom: .3vw;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.Sustainability .Sus-text p{
+    font-size: .7vw;
+    color: #0000009d;
+}
+
+.Sustainability .Sus-Img{
+    height: 15vw;
+    width: 8vw;
+    object-position: 40% 0;
+
+}
+.Sustainability .Sus-Img img{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+}
+
+.Ephemeral{
+    width: 30vw;
+    /* background: red; */
+    /* height: 90vw; */
+    position: relative;
+}
+
+.Ephemeral .eph-heading{
+    position: absolute;
+    top: -20%;
+    left: -18.5%;
+
+}
+
+.Ephemeral .eph-heading h1{
+    line-height:5vw;
+    font-size: 6vw;
+    letter-spacing: -.5vw;
+    font-weight: 100;
+}
+
+
+.Ephemeral .eph-img{
+}
+
+.Ephemeral .eph-img img{
+    width: 26vw;
+    height: 32vw;
+    
+        /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
+
+.eph-text p{
+    margin-top: 1.5vw;
+    width: 40%;
+    color: #000000d8;
+    font-size: 1.3vw;
+}
+
+.vists .vists-text{
+  display: flex;
+  gap: .2vw;
+  align-items: center;
+  /* background: red; */
+}
+
+.vists .vists-text i{
+    font-size: 1vw;
+    font-weight: 200;
+    color: #000000d4;
+    border: 1px solid #000000d4;
+    border-radius: 50%;
+    padding: .5vw;
+}
+
+.vists .vists-text h5{
+  font-weight: 400;
+  color: #000000d4;
+}
+
+
+/* ---------------------our-motive-------------- */
+#our-motive{
+    padding: 2vw 10vw;
+}
+#our-motive p{
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    color: #0000007c;
+    letter-spacing: -.1vw;
+}
+
+#our-motive .our-motive-text{
+    margin-top: 1vw;
+}
+#our-motive .our-motive-text h3{
+    /* background: red; */
+    /* margin-left: 10%; */
+    font-size: 2.4vw;
+    font-weight: 400;
+    line-height: 1.35;
+    text-align: right;
+}
+#our-motive .our-motive-text h3 span{
+    display: inline-block;
+    background: red;
+    width: 90px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin: 0 .2vw;
+    object-fit: cover;
+    margin-bottom: -.8vw;
+    background-size: cover;
+}
+
+
+#our-motive .our-motive-text h3 .one{
+    width: 70px;
+    background-position: 0% 60%;
+    background-image: url(/asstes/image/bluegirl.jpg);
+}
+
+#our-motive .our-motive-text h3 .two{
+    background-position: center;
+    background-image: url("/asstes/image/shaljam.jpg");
+}
+#our-motive .our-motive-text h3 .three{
+    width: 60px;
+    background-position: center;
+    background-image: url("/asstes/image/grass.jpg");
+}
+
+
+/* ------------------gallery----------------- */
+
+#gallery{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5vw 10vw;
+}
+
+.small{
+    width: 15vw;
+}
+.small .small-img{
+    width: 12vw;
+    height: 17vw;
+    overflow: hidden;
+}
+.small .small-img img{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: 10% 60%;
+}
+
+#gallery h3{
+    font-size: 2vw;
+    font-weight: 300;
+    color: #000000e7;
+    margin: .5vw 0;
+}    
+
+.small p{
+   width: 90%;
+   font-size: 1vw;
+   color: #000000e7;
+}
+
+
+.large{
+    width: 17vw;
+    height: 30vw;
+    text-align: right;
+}
+.large .large-img img{
+    height: 25vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+#gallery .large p{
+    width: 100%;
+    font-size: 1vw;
+    color: #000000e7;
+}
+
+
+
+/* ------------product-section------------------ */
+
+#product{
+    padding: 2vw 0;
+    padding-right: 10vw;
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+}
+
+#product .product-img{
+    /* flex-basis: 65%; */
+    width:80%;
+    background: red;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#product .product-img img{
+    height: 70vh;
+    width: 100%;
+    object-position: 0 68%;
+    object-fit: cover;
+}
+
+#product .product-text{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+}
+#product .product-text h2{
+    font-size: 2vw;
+    line-height: 1.2;
+    font-weight: 400;
+
+}
+#product .product-text p{
+    padding: 1vw 0;
+    color: #0000007c;
+}
+
+
+/* -------------------video section--------------- */
+
+#video{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video #video-text{
+    background: #fff;
+    width: fit-content;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    padding: 2vw;
+    border-radius: 20px;
+}
+
+#video #video-text h2{
+   padding-bottom: 1vw;
+   text-transform: lowercase;
+   font-size: 3vw;
+   font-weight:500;
+}
+
+#video-text button{
+    padding: .5vw .8vw;
+    background: linear-gradient(to right,#dadada,#0000007c);
+    border: none;
+    font-size: 1vw;
+    cursor: pointer;
+    font-weight: 300;
+    border-radius: 17px;
+}
+
+#video video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: ease all 0.5s;
+}
+
